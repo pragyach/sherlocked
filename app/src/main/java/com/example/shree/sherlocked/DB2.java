@@ -28,10 +28,15 @@ public class MainActivity extends AppCompatActivity {
         // Inserting Contacts
         Log.d("Insert: ", "Inserting ..");
 
-        db.addContact(new contact( "abc","65785689","summ","6"));
-        db.addContact(new contact("Srinivas", "9199999999","summ1","68"));
-        db.addContact(new contact("Tommy", "9522222222","summ2","69"));
-        db.addContact(new contact("Karthik", "9533333333","summ","66"));
+        db.addContact(new contact( "A Study in Pink", "90min","9.1/10",""));
+        db.addContact(new contact("The Blind Banker","90min","8.1/10","" ));
+        db.addContact(new contact("The Great Game","90min","9.1/10",""));
+        db.addContact(new contact("A Scandal in Belgravia","90min","9.5/10",""));
+        db.addContact(new contact("The Hounds of Baskerville","90min" , "9.2/10",""));
+        db.addContact(new contact("The Reichenbach Fall","90min","9.7",""));
+        db.addContact(new contact("The Empty Hearse","90min","9.2/10",""));
+        db.addContact(new contact("The Sign of Three","90min","9/10",""));
+        db.addContact(new contact("His Last Vow","90min","9.2/10",""));
 
         // Reading all contacts
         Log.d("Reading: ", "Reading all contacts..");
